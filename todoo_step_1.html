@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDoo step 1 - each card / list in a Foundation accordian</title>
+  <link rel="stylesheet" href="assets/css/foundation.css" />
+  <script src="assets/js/vendor/modernizr.js"></script>
+</head>
+<body>
+    
+
+  <dl class="accordion" data-accordion>
+    <dd>
+      <a href="#panel1">List 1</a>
+      
+      <div id="panel1" class="content">
+        <ul>
+          <li>
+            <input type="checkbox" id="checkbox_1_1" checked="checked"><label for="checkbox_1_1">Thing 1</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_1_2" checked="checked"><label for="checkbox_1_2">Thing 2</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_1_3"><label for="checkbox_1_3">Thing 3</label>
+          </li>
+        </ul>
+      </div>
+    </dd>
+  </dl>
+
+  <dl class="accordion" data-accordion>
+    <dd>
+      <a href="#panel2">List 2</a>
+
+      <div id="panel2" class="content">
+        <ul>
+          <li>
+            <input type="checkbox" id="checkbox_2_1"><label for="checkbox_2_1">Thing 1</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_2_2"><label for="checkbox_2_2">Thing 2</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_2_3" checked="checked"><label for="checkbox_2_3">Thing 3</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_2_4"><label for="checkbox_2_4">Thing 4</label>
+          </li>
+        </ul>
+      </div>
+    </dd>
+  </dl>
+
+  <dl class="accordion" data-accordion>
+    <dd>
+      <a href="#panel3">List 3</a>
+
+      <div id="panel3" class="content">
+        <ul>
+          <li>
+            <input type="checkbox" id="checkbox_3_1" checked="checked"><label for="checkbox_3_1">Thing 1</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_3_2"><label for="checkbox_3_2">Thing 2</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_3_3"><label for="checkbox_3_3">Thing 3</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_3_4"><label for="checkbox_3_4">Thing 4</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_3_5"><label for="checkbox_3_5">Thing 5</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_3_6"><label for="checkbox_3_6">Thing 6</label>
+          </li>
+        </ul>
+      </div>
+    </dd>
+  </dl>
+
+  <dl class="accordion" data-accordion>
+    <dd>
+      <a href="#panel4">List 4</a>
+
+      <div id="panel4" class="content">
+        <ul>
+          <li>
+            <input type="checkbox" id="checkbox_4_1"><label for="checkbox_4_1">Thing 1</label>
+          </li>
+          <li>
+            <input type="checkbox" id="checkbox_4_2"><label for="checkbox_4_2">Thing 2</label>
+          </li>
+        </ul>
+      </div>
+    </dd>
+  </dl>
+ 
+  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
